@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <title>SafeMed:</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <!--======= Top Bar =======-->
+      <div class="top-bar">
+        <a href="#" class="nav--logo"
+          >SafeMed<i class="bx bx-plus-medical"></i
+        ></a>
+
+        <div class="nav--reg auth-links">
+          <a href="login.html" class="login" id="login-link"
+            ><i class="bx bx-user"></i>Log in</a
+          >
+        </div>
+
+        <button class="menu-toggle" id="menu-toggle">
+          <i class="bx bx-menu" id="menu-icon"></i> Menu
+        </button>
+      </div>
+
+      <nav class="nav nav--container" id="mobile-menu">
+        <ul class="nav--list">
+          <li class="nav--item">
+            <a href="#" class="nav--link">How it works</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Features</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Privacy & Security</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Contact Us</a>
+          </li>
+          <li><a href="#" id="mobile-login"></a></li>
+          <li><a href="#" id="mobile-register"></a></li>
+        </ul>
+
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </div>
+
+        <!--  -->
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO -->
+      <section class="hero animate-on-load">
+        <div class="hero-content">
+          <div class="text-box">
+            <h1 class="hero-headline">Welcome to SafeMed:</h1>
+            <h2 class="hero-headline2">
+              Your Comprehensive Healthcare Record System
+            </h2>
+            <p class="hero-subheadline">
+              Secure, Accessible, and Efficient Health Record Management for
+              Users and Healthcare Providers
+            </p>
+            <a href="signup.html" class="cta-button">Get Started Now</a>
+          </div>
+        </div>
+
+        <div class="hero-image-container">
+          <div class="hero-image">
+            <img
+              src="assets/img/hero2.jpg"
+              alt="Healthcare provider and patient managing health records"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- START NOW -->
+      <section class="section-start animate-on-load">
+        <div class="text-box-start">
+          <h3 class="section-headline font-bm">
+            Keep track of your health status always.
+          </h3>
+
+          <a href="signup.html" class="cta-button">Register Now</a>
+        </div>
+      </section>
+
+      <!-- NEW SECTION -->
+      <section class="section-select animate-on-load">
+        <div class="benefits-grid">
+          <!-- WHY CHOSE US -->
+          <div class="grid-sect1 grid-left">
+            <i class="bx bxs-medal content-icon diff-color"></i>
+            <h2 class="section-headline diff-color">Why chose us?</h2>
+
+            <div class="section-dropdown">
+              <div class="dropdown">
+                <header class="dropdown-header">
+                  <i class="bx bxs-x-square dropdown-icon"></i>
+
+                  <h3 class="text-headline">
+                    <span class="text-span">For Users: </span> Secure and
+                    Accessible Health Records
+                  </h3>
+                  <div class="dropdown-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="text-content">
+                  <p class="text-desc">
+                    Emphasize the platform's ability to securely store and
+                    provide access to personal health records anytime, anywhere.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <header class="dropdown-header">
+                  <i class="bx bxs-x-square dropdown-icon"></i>
+
+                  <h3 class="text-headline">
+                    <span class="text-span">For Admins:</span> Efficient Patient
+                    Management
+                  </h3>
+                  <div class="dropdown-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="text-content">
+                  <p class="text-desc">
+                    Highlight the benefits for hospitals and clinics, such as
+                    the ability to register patients, manage their health
+                    records, and view comprehensive medical histories.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PRIVACY -->
+          <div class="grid-sect2 grid-right">
+            <i class="bx bxs-check-shield content-icon"></i>
+            <h2 class="section-headline">Your Privacy, Our Priority</h2>
+
+            <div class="section-dropdown">
+              <div class="dropdown">
+                <header class="dropdown-header">
+                  <i class="bx bxs-x-square dropdown-icon"></i>
+
+                  <h3 class="text-headline">
+                    <span class="text-span">For Users:</span> Data Security You
+                    Can Trust
+                  </h3>
+                  <div class="dropdown-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="text-content">
+                  <p class="text-desc">
+                    Explain the encryption technologies and security measures in
+                    place.
+                  </p>
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <header class="dropdown-header">
+                  <i class="bx bxs-x-square dropdown-icon"></i>
+
+                  <h3 class="text-headline">
+                    <span class="text-span">For Admins: </span> Compliance and
+                    Confidentiality
+                  </h3>
+                  <div class="dropdown-arrow">
+                    <i class="bx bxs-down-arrow"></i>
+                  </div>
+                </header>
+
+                <div class="text-content">
+                  <p class="text-desc">
+                    Reassure admins that the platform complies with healthcare
+                    regulations and maintains the confidentiality of patient
+                    data.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <a href="#" class="nav--logo"
+              >SafeMed<i class="bx bx-plus-medical"></i
+            ></a>
+
+            <div class="text-desc">
+              <p>
+                is a registered trademark of the <br />
+                Department of Health & Human Services.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">Our information</h3>
+
+          <ul class="text-desc">
+            <li>234 - Nigeria</li>
+            <li>FCT-Abuja 900231</li>
+            <li>123-456-789</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">About Us</h3>
+
+          <ul class="footer-links text-desc">
+            <li>
+              <a href="#" class="footer__link">Customer Support</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Copy Right</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">Socials</h3>
+
+          <ul class="footer__social text-desc">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy"
+        >&#169; VAE_Developer. All rigths reserved</span
+      >
+    </footer>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js" defer></script>
+  </body>
+</html>

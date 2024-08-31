@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <title>SafeMed: Login</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <!--======= Top Bar =======-->
+      <div class="top-bar">
+        <a href="index.html" class="nav--logo"
+          >SafeMed<i class="bx bx-plus-medical"></i
+        ></a>
+
+        <button class="menu-toggle" id="menu-toggle">
+          <i class="bx bx-menu" id="menu-icon"></i> Menu
+        </button>
+      </div>
+
+      <nav class="nav nav--container" id="mobile-menu">
+        <ul class="nav--list">
+          <li class="nav--item">
+            <a href="#" class="nav--link">How it works</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Features</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Privacy & Security</a>
+          </li>
+          <li class="nav--item">
+            <a href="#" class="nav--link">Contact Us</a>
+          </li>
+          <li><a href="#" id="mobile-login"></a></li>
+          <li><a href="#" id="mobile-register"></a></li>
+        </ul>
+
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="submit">Search</button>
+        </div>
+
+        <!--  -->
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main">
+      <section class="login-section animate-on-load">
+        <div class="login-container">
+          <div class="login-heading">
+            <h1 class="hero-headline">Log in</h1>
+            <p class="login-text">
+              Don't have an account?
+              <a href="signup.html" class="login-link">Create account</a>
+            </p>
+          </div>
+
+          <form class="login-form">
+            <div>
+              <label for="username">Med ID</label>
+              <input
+                type="text"
+                id="medId"
+                class="medId"
+                placeholder="Enter your medical Id..."
+                required
+              />
+              <a href="#" class="forgot-link">Forgot your ID?</a>
+            </div>
+
+            <div>
+              <label for="password">Password</label>
+              <input type="password" id="password" class="password" required />
+              <button type="button " id="togglePassword"></button>
+              <a href="#" class="forgot-link">Forgot your password?</a>
+            </div>
+
+            <button type="submit" class="login-button">Log in</button>
+          </form>
+
+          <div class="important-info">
+            <p class="text-desc">
+              Using a public or shared computer?<br />
+              Keep your information secure. Log out and close all windows when
+              you're done.
+            </p>
+          </div>
+        </div>
+
+        <div class="login-img-box">
+          <img
+            src="assets/img/hero4.jpg"
+            alt="Login image"
+            class="login-image"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <a href="#" class="nav--logo"
+              >SafeMed<i class="bx bx-plus-medical"></i
+            ></a>
+
+            <div class="text-desc">
+              <p>
+                is a registered trademark of the <br />
+                Department of Health & Human Services.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">Our information</h3>
+
+          <ul class="text-desc">
+            <li>234 - Nigeria</li>
+            <li>Oron-Akwa Ibom 523121</li>
+            <li>816-177-2297</li>
+            <li>816-060-3781</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">About Us</h3>
+
+          <ul class="footer-links text-desc">
+            <li>
+              <a href="#" class="footer__link">Customer Support</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Copy Right</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="text-span">Socials</h3>
+
+          <ul class="footer__social text-desc">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy"
+        >&#169; VAE_Developer. All rigths reserved</span
+      >
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
